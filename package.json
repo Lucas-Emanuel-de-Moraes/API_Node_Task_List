@@ -1,0 +1,27 @@
+{
+  "name": "projeto_02",
+  "version": "1.0.0",
+  "description": "crud project with postgresql",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Emanuel de Moraes",
+  "license": "ISC",
+  "dependencies": {
+    "@types/sequelize": "^4.28.20",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "yup": "^1.4.0"
+  }
+}
